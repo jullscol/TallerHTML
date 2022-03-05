@@ -5,6 +5,7 @@
 }
 
 
+
 .container {
 
 	display: block;
@@ -14,6 +15,22 @@
 	width: 1024px;
 	margin: auto;
 }
+
+.estilo1 {
+     background-color: skyblue;
+
+}
+
+.estilo2 {
+     background-color: lightgreen;
+
+}
+
+.estilo3 {
+     background-color: lightyellow;
+
+}
+
 header {
        background-color:  gray;
  	    text-align: center;
@@ -60,6 +77,11 @@ nav {
     background : red;
 	
 
+}
+
+.h2 {
+
+	text-align: center;
 }
    
  section {
@@ -108,4 +130,30 @@ nav {
     background : red;
 	padding: 10 px;
 
- 
+
+}
+
+	
+
+
+#fun {
+
+	Display:none;
+}
+
+#funone {
+
+	Display:none;
+}
+
+
+#funtwo {
+
+	Display:none;
+}
+
+
+#funthree {
+
+	Display:none;
+}

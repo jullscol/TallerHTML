@@ -4,17 +4,41 @@
 	<meta charset="utf-8">
 
         <link rel="stylesheet" type="text/css" href="Estilos.css">
-	
+	      <script src="codigo.js"></script>
+
 	<title>Hoja de vida Julian Arbelaez</title>
+
 </head>
 
-<body>
+<body onload ="main()">
 
     <div class="container">
 
-    <header>
+         <button 
+              Type="button" 
+              onclick="cambiarColor1('container')">
+              Estilo 1        
+         </button>
+         <button 
+              Type="button" 
+              onclick="cambiarColor2('container')">
+              Estilo 2      
+         </button>
+         <button 
+              Type="button" 
+              onclick="cambiarColor3('container')">
+              Estilo 3      
+         </button>
+        
+         <button 
+              Type="button" 
+              onclick="removerEstilos('container')">
+              Remover Estilo        
+         </button>
+        
+    <header >
 
-        <h1> HOJA DE VIDA</h1>
+                <h1> HOJA DE VIDA</h1>
      </header>    
         <figure>  <img src=foto_Julian.png alt="logo">  </figure>
    
@@ -63,6 +87,9 @@
          <a class = "claseDownload" href="HV_JULIAN_ARBELAEZ _HTML.pdf">Descargar Hoja de vida</a>
 
    </footer>
+
+    
+       <script>main</script>
 
 </div>
 </body>
