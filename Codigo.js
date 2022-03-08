@@ -106,26 +106,6 @@ function ocultar2(){
 
 
 
-function Mostrar_Ocultar2(){
-     var funtwo =document.getElementById("funtwo");
-
-     if (funtwo.style.display == "none"){
-     	mostrar2();
-        document.getElementById("botontwo").value ="Ocultar";
-     }
-     else{
-     	ocultar2();
-     	document.getElementById("botontwo").value ="Mostrar";
-     }
-
-}
-
-
-
-
-
-
-
 
 function mostrar3(){
 
@@ -139,16 +119,104 @@ function ocultar3(){
 }
 
 
-function Mostrar_Ocultar3(){
-     var funthree =document.getElementById("funthree");
+function mostrar4(){
 
-     if (funthree.style.display == "none"){
-     	mostrar3();
-        document.getElementById("botonthree").value ="Ocultar";
-     }
-     else{
-     	ocultar3();
-     	document.getElementById("botonthree").value ="Mostrar";
-     }
+   document.getElementById("estone").style.display = "Block";
+}
 
+
+function ocultar4(){
+
+   document.getElementById("estone").style.display = "none";
+}
+
+function mostrar5(){
+
+   document.getElementById("esttwo").style.display = "Block";
+}
+
+
+function ocultar5(){
+
+   document.getElementById("esttwo").style.display = "none";
+}
+
+function mostrar6(){
+
+   document.getElementById("estthree").style.display = "Block";
+}
+
+
+function ocultar6(){
+
+   document.getElementById("estthree").style.display = "none";
+}
+
+
+function mostrar7(){
+
+   document.getElementById("refone").style.display = "Block";
+}
+
+
+function ocultar7(){
+
+   document.getElementById("refone").style.display = "none";
+}
+
+
+function mostrar8(){
+
+   document.getElementById("reftwo").style.display = "Block";
+}
+
+
+function ocultar8(){
+
+   document.getElementById("reftwo").style.display = "none";
+}
+
+
+function mostrar9(){
+
+   document.getElementById("refthree").style.display = "Block";
+}
+
+
+function ocultar9(){
+
+   document.getElementById("refthree").style.display = "none";
+}
+
+function mostrar10(){
+
+   document.getElementById("refpone").style.display = "Block";
+}
+
+
+function ocultar10(){
+
+   document.getElementById("refpone").style.display = "none";
+}
+
+function mostrar11(){
+
+   document.getElementById("refptwo").style.display = "Block";
+}
+
+
+function ocultar11(){
+
+   document.getElementById("refptwo").style.display = "none";
+}
+
+function mostrar12(){
+
+   document.getElementById("refpthree").style.display = "Block";
+}
+
+
+function ocultar12(){
+
+   document.getElementById("refpthree").style.display = "none";
 }
